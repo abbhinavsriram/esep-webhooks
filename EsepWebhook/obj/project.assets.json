@@ -44,6 +44,50 @@
           }
         }
       }
+    },
+    "net10.0/linux-x64": {
+      "Amazon.Lambda.Core/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Amazon.Lambda.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.4.5": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.8.0"
+        },
+        "compile": {
+          "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      }
     }
   },
   "libraries": {
@@ -194,7 +238,15 @@
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+            "version": "[10.0.15, 10.0.15]"
+          },
+          {
             "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+            "version": "[10.0.15, 10.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.linux-x64",
             "version": "[10.0.15, 10.0.15]"
           }
         ],
@@ -478,6 +530,11 @@
           "System.Xml.XPath": "(,4.3.32767]",
           "System.Xml.XPath.XDocument": "(,5.0.32767]"
         }
+      }
+    },
+    "runtimes": {
+      "linux-x64": {
+        "#import": []
       }
     }
   }

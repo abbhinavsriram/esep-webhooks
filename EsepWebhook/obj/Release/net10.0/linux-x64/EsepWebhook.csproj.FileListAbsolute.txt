@@ -15,3 +15,5 @@ C:\Users\abbhi\Documents\esep-webhooks\EsepWebhook\obj\Release\net10.0\linux-x64
 C:\Users\abbhi\Documents\esep-webhooks\EsepWebhook\obj\Release\net10.0\linux-x64\EsepWebhook.pdb
 C:\Users\abbhi\Documents\esep-webhooks\EsepWebhook\obj\Release\net10.0\linux-x64\EsepWebhook.genruntimeconfig.cache
 C:\Users\abbhi\Documents\esep-webhooks\EsepWebhook\obj\Release\net10.0\linux-x64\ref\EsepWebhook.dll
+C:\Users\abbhi\Documents\esep-webhooks\EsepWebhook\bin\Release\net10.0\linux-x64\Newtonsoft.Json.dll
+C:\Users\abbhi\Documents\esep-webhooks\EsepWebhook\obj\Release\net10.0\linux-x64\EsepWebhook.sourcelink.json
